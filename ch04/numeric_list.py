@@ -37,3 +37,18 @@ print(alphabet[8:10])
 
 for letter in alphabet[2:10]:
     print(f"the letter is {letter}\n")
+
+#复制列表
+
+my_food = ['milk','coffee','meat']
+friend_food = my_food[:]
+print("my food:")
+print(my_food)
+print("friends food")
+print(friend_food)
+
+friend_food.append("apple")
+print("my frinds new food")
+print(friend_food)
+print("my food")
+print(my_food)
