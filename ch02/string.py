@@ -14,3 +14,14 @@ print(full.lower())
 # 可以使用\n 换行print \t 对齐
 
 print("\n\tCountries: \n\tRussia \n\tFinland \n\tHungary \n\tSlovakia \n\tCzech \n\tGermany \n\tEstonia \n\tItaly \n\tGreek \n\tAustria \n\tLativa \n\tLithunia \n\tPoland")
+
+# 去除不需要的空格符 rstrip()
+
+space = "   \ni don't really want to use the space between words, but it is conventional in English   "
+
+print(space)
+print(space.rstrip())
+print(space.lstrip())
+print(space.strip())
+
+
