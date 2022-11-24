@@ -8,3 +8,8 @@ some shortcuts for terminal typing
 |CTRL U|cut from cursor to head of line|
 |ALT D|cut from cursor to end of word|
 |CTRL Y|paste |
+
+---
+
+11/24/2022 11:42pm 复制列表 :)
+
