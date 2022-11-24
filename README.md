@@ -6,5 +6,5 @@ some shortcuts for terminal typing
 |:-:|:-|
 |CTRL K|cut from cursor to end of line|
 |CTRL U|cut from cursor to head of line|
-|ALT U|cut from cursor to end of word|
+|ALT D|cut from cursor to end of word|
 |CTRL Y|paste |
