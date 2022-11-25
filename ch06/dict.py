@@ -69,3 +69,5 @@ for idx in range(100):
 for al in aliens[:15]:
     print(al)
     print("---------------")
+
+print(f"\n in total, you have just created {len(aliens)} aliens.")
