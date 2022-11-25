@@ -17,3 +17,11 @@ print(student_1['country'])
 student_1['age'] = 29
 
 print(f"now the new age is {student_1['age']}")
+
+# 使用get()来访问值
+
+#如果字典中没有所查找的key，使用get()l可以避免报错。
+
+print(student_1.get('language', 'cannot find what you are looking for !'))
+
+# dict.get('the_key_you_search', 'optional return value if not found')
