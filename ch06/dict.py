@@ -48,3 +48,8 @@ for key in sorted(student_1.keys()):
 
 for value in student_1.values():
     print(f"\n{value}")
+
+food = ['apple', 'apple', 'milk', 'coffee', 'coffee']
+
+for el in set(food):
+    print(f"\n{el}")
