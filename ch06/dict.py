@@ -76,10 +76,12 @@ print(f"\n in total, you have just created {len(aliens)} aliens.")
 # 在字典中存储列表
 
 coffee = {
-        'brand':'Luckin',
-        'price':15,
+        'brand':['Luckin'],
+        'price':['15'],
         'ingredients':['milk', 'sugar', 'coffee']
         }
 for key, value in coffee.items():
     print(f"\n{key}")
-    print(f"{value}")
+    for el in value:
+        print(f"\n{el}")
+
