@@ -24,3 +24,5 @@ for people, drinks in drink_order.items():
     print(f"\t{drinks['unit']}")
     print(f"\t{drinks['serving']}")
     print('\n let us use a smart way to print !')
+    for key in drinks.keys():
+        print(f"\n\t{drinks[key]}")
