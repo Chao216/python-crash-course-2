@@ -97,7 +97,7 @@ students = {
 
 for people, people_info in students.items():# here same as key value items() method
     print(f"\nName:{people}")
-    print(f"\t{people_info['name']}")
-    print(f"\t{people_info['age']}")
-    print(f"\t{people_info['country']}")
+    print(f"\tFull name: {people_info['name']}")
+    print(f"\tAge: {people_info['age']}")
+    print(f"\tCountry: {people_info['country']}")
 
