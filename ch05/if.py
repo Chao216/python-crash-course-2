@@ -40,3 +40,17 @@ if age >= 18:
     print("adult")
 else:
     print("minor")
+
+
+# if-elif-else
+
+if age > 0 and age < 7:
+    print("kid")
+elif age >= 7 and age < 18:
+    print("teen")
+elif age >= 18 and age < 60:
+    print("work hard")
+elif age >= 60:
+    print("enjoy your life")
+else:
+    print("are you a human-being? ")
