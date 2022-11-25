@@ -59,3 +59,13 @@ for i in range(1,10):
 
 for i in range(10):
     print(i)
+
+aliens = [] #创建一个空列表
+
+for idx in range(100):
+    new_alien = {'name':'alien', 'star':'M78', 'code':8964}
+    aliens.append(new_alien)
+
+for al in aliens[:15]:
+    print(al)
+    print("---------------")
