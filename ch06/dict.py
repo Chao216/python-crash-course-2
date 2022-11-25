@@ -85,3 +85,19 @@ for key, value in coffee.items():
     for el in value:
         print(f"\n{el}")
 
+# 在字典中嵌套字典
+
+students = {
+
+        'chao':{'name':'Chao Jiang', 'age':25, 'country':'China'},
+        'vova':{'name':'Valadimir Balin','age':28, 'country':'Russia'},
+        'apurva':{'name':'Apurva Potdar', 'age':26, 'country':'India'}
+
+        }
+
+for people, people_info in students.items():# here same as key value items() method
+    print(f"\nName:{people}")
+    print(f"\t{people_info['name']}")
+    print(f"\t{people_info['age']}")
+    print(f"\t{people_info['country']}")
+
