@@ -13,3 +13,6 @@ some shortcuts for terminal typing
 
 11/24/2022 11:42pm 复制列表 :)
 
+----
+
+11/25/2022 9:13pm 字典 :)
