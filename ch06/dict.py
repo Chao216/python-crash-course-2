@@ -1,3 +1,4 @@
+
 # python字典就是 key value pair
 
 student_1 = {'name':'valadimir', 'age':28}
@@ -25,3 +26,25 @@ print(f"now the new age is {student_1['age']}")
 print(student_1.get('language', 'cannot find what you are looking for !'))
 
 # dict.get('the_key_you_search', 'optional return value if not found')
+
+#遍历字典的键值 items()方法
+
+for key, value in student_1.items():
+    print(f"\nKey:{key}")
+    print(f"\nValue:{value}")
+
+# 访问所有key 
+
+for key in student_1.keys():
+    print(f"\n{key}")
+
+# 访问排序过的key
+
+for key in sorted(student_1.keys()):
+    print(f"\n{key}")
+
+
+# 遍历所有的值 values()
+
+for value in student_1.values():
+    print(f"\n{value}")
