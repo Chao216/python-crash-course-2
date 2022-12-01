@@ -22,3 +22,13 @@ def describe_pets(animal, name):
 
 describe_pets("Hund", "Sherlock")
 
+# keywords parameter
+
+def describe_friend(name, country):
+    print(f"\nI have a friend from {country}.")
+    print(f"\nHis/her name is {name}.")
+
+describe_friend(name = "Vova", country = "Russia")
+describe_friend(country = "India", name = "Apurva")
+
+
