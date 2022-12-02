@@ -7,7 +7,7 @@ class AnonymousSurvey:
         print(self.question)
 
     def store_response(self, new_response):
-        self.responses.append(new_respons)
+        self.responses.append(new_response)
 
     def show_responses(self):
         print("here are the results:")
