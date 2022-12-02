@@ -1,0 +1,10 @@
+Life is short, you need Python !Here is first line appended to the file 
+	Here is second line appended to the file 
+	Here is third line appended to the file 
+	Here is forth line appended to the file 
+	
+Here is first line appended to the file 
+	Here is second line appended to the file 
+	Here is third line appended to the file 
+	Here is forth line appended to the file 
+	
