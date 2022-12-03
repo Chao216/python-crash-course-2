@@ -31,3 +31,20 @@ MOJITO:<br/>
 1/12/2022 1:12pm 函数 ：）
 
 2/12/2022 2:44pm 文件与错误处理 ：）
+
+
+## list, tuple, set, and dictionary
+
+- list is as its name idicated, a list of values
+- tuple is similar to list, but its value is not mutatable, you can re-assign the whole tuple
+- set is a list with no duplication in values
+- dictionary is a "list" of key: value pairs
+
+|syntax|value|notice|
+|:-:|:-|:-|
+|a = [1,2,3,4,5,6]|1,2,3,4,5,6|| 
+|b = (1,2,3,4,5,6)|1,2,3,4,5,6|element inside tuple is not mutatable, but you can re-assign whole tuple| 
+|c = {1,1,2,2,3,3,4,4,5,5,6,6}|1,2,3,4,5,6|no duplications of elements inside a set| 
+|d = {"a":1, "b":2, "c":3}|"a":1, "b":2, "c":3|use dict.items(), keys(), values() method for loops|
+
+ 
