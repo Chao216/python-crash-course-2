@@ -48,3 +48,10 @@ MOJITO:<br/>
 |d = {"a":1, "b":2, "c":3}|"a":1, "b":2, "c":3|use dict.items(), keys(), values() method for loops|
 
  
+### 12.3.1 创建Pygame窗口，响应用户输入。
+
+
+Sun 04 Dec 2022 04:38:56 PM CST
+
+you can insert date time in Vi by `:r !date`
+
