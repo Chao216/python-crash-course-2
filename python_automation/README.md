@@ -27,3 +27,15 @@ text2 = pc.paste() paste content to text2
 
 print(text2) # same as text1
 ```
+
+pyperclip.paste() 即为剪贴板中缓冲区的文字
+
+```python
+
+import pyperclip as pc
+
+text = pc.paste()
+
+print(f"\n{text}")
+```
+
