@@ -40,3 +40,60 @@ zeroOne1 = zeroOne.search("superman")
 zeroOne2 = zeroOne.search("superwoman")
 print(zeroOne1.group())
 print(zeroOne2.group())
+
+# 你也可以用 * 零次或多次， + 一次或多次
+print("* 零次或多次 + 一次或多次")
+
+# 使用花括号 匹配特定数量
+print("使用{m,}匹配至少m次")
+print("使用{,n}匹配至多m次")
+print("使用{m,n}匹配m 到 n次")
+
+# ?也可以用来表示非贪心匹配
+
+non_greedy = re.compile(r'(ho){3,5}?') #非贪心匹配
+
+ng1 = non_greedy.search("hhdfuhhohohodfdshohohohohohohohfdsf")
+
+print(ng1.group())
+
+# search() 默认返回找到的第一个结果， findall() 会返回所有发现结果，以列表呈现
+
+# 再次使用之前定义的tel_num 正则对象
+
+many_tel = tel_num.findall("the possible numbers are 0987-87654677, 3421-09876789, 4343-67564534")
+
+for number in many_tel:
+    print(number)
+
+# ^开头， $结尾 [abcdeABCED] 属于之一， [^abcdeABCDE] 不属于任何一个
+print(" ^开头， $结尾 [abcdeABCED] 属于之一， [^abcdeABCDE] 不属于任何一个")
+
+# 通配字符 . 可以用来匹配除了换行\n 外所有字符
+
+cap_any = re.compile(r'.at')
+
+res_any = cap_any.findall('hat, batman, hoat, oat, mattress, chat')
+
+for res in res_any:
+    print(res)
+
+# 可以结合 * AND . 匹配任意文本， 除了换行符\n
+
+print(".* 可以匹配任意字符0个或多个， 除了换行\\n")
+
+# 使用.DOTALL 匹配任意字符，包括换行\n
+# re.DOTALL 记得要放在re.compile()的第二个argument里
+newLine = re.compile(r".*", re.DOTALL)
+
+newLine1 = newLine.search("hello mr potter. \n how are you doing? ")
+print(newLine1.group())
+
+# 使用 .IGNORECASE 或.I 忽略大小写
+
+ignoreCase = re.compile(r'cat', re.I)
+
+cases = ignoreCase.findall("CAT cat CAt caT CaT cAt")
+
+for case in cases:
+    print(case)
