@@ -55,6 +55,7 @@ Sun 04 Dec 2022 04:38:56 PM CST
 
 you can insert date time in Vi by `:r !date`
 
+## Python and Shebang
 
 you can add a shebang line to .py files to excute them in a easier way
 
