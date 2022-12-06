@@ -1,7 +1,7 @@
 # this is the second (application part of another book)
 ***AUTOMATE THE BORING STUFF WITH PYTHON***
 
-join list of strings use following syntax
+## 1. join list of strings use following syntax
 ```python
 str1 = ", " # could be anything for seperation purpose
 
