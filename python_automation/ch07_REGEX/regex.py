@@ -97,3 +97,11 @@ cases = ignoreCase.findall("CAT cat CAt caT CaT cAt")
 
 for case in cases:
     print(case)
+
+# 使用.sub() 替换
+
+subsitute = re.compile("Will \w+")
+
+replaced = subsitute.sub("An unknown person", "Will Smith told BBC that CNN is fake news.")
+
+print(replaced)
