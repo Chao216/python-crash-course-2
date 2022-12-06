@@ -16,4 +16,14 @@ longString1 = ' # '.join(tuple1) # you can write the sep string right before .jo
 
 pyperclip allow python to access to clipboard
 
+```python
+import pyperclip as pc
 
+text1 = "Hello, how are you doing? "
+
+pc.copy(text1) # copy content from text1
+
+text2 = pc.paste() paste content to text2
+
+print(text2) # same as text1
+```
