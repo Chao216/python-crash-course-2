@@ -12,3 +12,8 @@ longString = str1.join(list1) # you can also use join with tuple, set, dictionar
 longString1 = ' # '.join(tuple1) # you can write the sep string right before .join()
 ```
 
+## 2. pyperclip copy, paste
+
+pyperclip allow python to access to clipboard
+
+
