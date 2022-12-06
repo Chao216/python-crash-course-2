@@ -105,3 +105,17 @@ subsitute = re.compile("Will \w+")
 replaced = subsitute.sub("An unknown person", "Will Smith told BBC that CNN is fake news.")
 
 print(replaced)
+
+# 可以使用 .VERBOSE 将复杂正则拆分成多行
+
+#regPatter = re.compile(r'''(
+#        first pattern
+#        second
+#        third
+#        ...
+#        last patter'''), re.VERBOSE)
+
+print("regPatter = re.compile(r'''(\n\tfirst pattern\n\tsecond\n\tthird\n\t...\n\tlast patter'''), re.VERBOSE)")
+
+# 组合使用 忽略大小写，换行，verbose
+print("组合使用多个第二参数， re.compile(r'foo', re.I|re.DOTALL|re.VERBOSE)")
