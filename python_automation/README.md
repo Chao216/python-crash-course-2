@@ -34,7 +34,7 @@ pyperclip.paste() 即为剪贴板中缓冲区的文字
 
 import pyperclip as pc
 
-text = pc.paste()
+text = str(pc.paste()) # stringify pasted content
 
 print(f"\n{text}")
 ```
