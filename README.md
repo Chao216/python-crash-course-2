@@ -55,3 +55,14 @@ Sun 04 Dec 2022 04:38:56 PM CST
 
 you can insert date time in Vi by `:r !date`
 
+
+you can add a shebang line to .py files to excute them in a easier way
+
+```shell
+#! /usr/bin/env python3
+```
+grant permession and run
+```shell
+sudo chmod 744 hello.py
+./hello.py
+```
