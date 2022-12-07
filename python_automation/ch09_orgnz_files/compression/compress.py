@@ -12,3 +12,5 @@ print(joinInfo.file_size)
 print("join.py compressed size \n")
 print(joinInfo.compress_size)
 
+exampleZip.close()
+
