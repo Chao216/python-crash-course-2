@@ -12,4 +12,3 @@ su.copytree("./A", "./Back_Up") # copy an entire folder and child folders, file
 
 print(os.listdir("./"))
 
-
