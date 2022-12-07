@@ -1,0 +1,7 @@
+in bash
+you can use mkdir -p a/b/c to create parent and children folders
+you can use rmdir -p a/b/c to delete parent and children folders
+
+you can use rm -r directory/ to remove all folders files inside recursivly.
+
+
