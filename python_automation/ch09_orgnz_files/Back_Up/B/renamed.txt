@@ -1,0 +1,1 @@
+this is content in first text file written by VIM editor.
