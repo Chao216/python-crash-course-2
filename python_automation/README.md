@@ -39,3 +39,14 @@ text = str(pc.paste()) # stringify pasted content
 print(f"\n{text}")
 ```
 
+
+## A trick to zip folders on linux terminal
+
+to create zip without recording folder itself, add -j
+
+```shell
+sudo apt-get install zip
+
+zip -r -j name_as_needed.zip directory_to_compress/
+```
+
